@@ -1,16 +1,43 @@
 import React from 'react';
-import '../../resources/styled/App.css';
-import {Container} from '../resources/Container';
+import {Container, SloganContainer} from '../resources/Container';
+import {Button, CircularButtons, SloanButtons} from '../resources/Button';
+import { Flex } from '../resources/FlexBox';
+import sloganPic from '../files/SloganPic.png';
 // import {ListCard, SCard} from '../../resources/styled/CardsStyled';
 // import { Image } from '../../resources/styled/Imagestyled';
-import portpic from '../../files/PortfolioPics.png';
 
 function Info() {
     return (
         <>
-            <Container justify-content="space-between">
-                <h4> Enthusiastic Computer Science Sophomore at University of Colorado Boulder </h4>   
-            </Container>
+            <SloganContainer>
+                <Flex>
+                <img src={sloganPic} alt="sloganPic" width={600}/>
+                <h2>
+                    Go beyond your pocket
+                    <h1>
+                        With POCit
+                    </h1>
+                    <SloanButtons>
+                        Shop now
+                    </SloanButtons>
+                </h2>
+                
+                </Flex>
+            </SloganContainer>
+            <Flex>
+                <CircularButtons>
+                    Arts
+                </CircularButtons>
+                <CircularButtons>
+                    Arts
+                </CircularButtons>
+                <CircularButtons>
+                    Arts
+                </CircularButtons>
+                <CircularButtons>
+                    Arts
+                </CircularButtons>
+            </Flex>
         </>
     );
 }

@@ -1,42 +1,53 @@
 import React from 'react';
+import '../App.css';
 import { SHeader, Nav, StyledSocialIcons } from '../resources/HeaderStyled';
-import { Container, BorderedContainer } from '../resources/Container';
+import { Container, SloganContainer } from '../resources/Container';
 import { Button } from '../resources/Button';
 import { Flex } from '../resources/FlexBox';
 import { Image } from '../resources/Stores';
-import { FaLinkedin, FaGithub, FaFileAlt } from 'react-icons/fa';
+import { PageItemWrapper } from '../resources/HelperComponents/ItemWrapper';
+import { PageText } from '../resources/HelperComponents/PageText';
+import { Wrapper, Searchbox} from '../resources/HelperComponents/styles';
+import { FaShoppingCart } from 'react-icons/fa';
+import logopic from '../files/Official_POCit_Logo.png';
+
+
 
 function Header() {
   return (
-    <div>
       <SHeader>
-        <Container>
-          <Nav>
-            <h1>Samriddhi Lamichhane</h1>
-            <BorderedContainer>
-              <Flex>
-                <StyledSocialIcons>
-                  <a href="https://github.com/ssumri">
-                    <FaGithub size={40} id="github" />
-                  </a>
-                </StyledSocialIcons>
-                <StyledSocialIcons>
-                  <a href="https://www.linkedin.com/in/samriddhi-lamichhane-b193431b5/">
-                    <FaLinkedin size={40} id="linkedin" />
-                  </a>
-                  </StyledSocialIcons>
-                <StyledSocialIcons>
-                  <a href="https://drive.google.com/file/d/1qsFeEiIy-WG2Kcz_KZ5WZTpVEmPwT5Dj/view?usp=sharing" target="blank">
-                    <FaFileAlt size={40} id="resume" />
-                  </a>
-                </StyledSocialIcons>
-              </Flex>
-            </BorderedContainer>
-          </Nav>
+      <Container>
+        <Nav>
+            <img src={logopic} alt="Logo" width={20}/>
+            <Button>
+                <p> Home </p>
+            </Button>
+            <Button>
+                <p> Best Sellers </p>
+            </Button>
+            <Button>
+                <p> Search By Goods</p>
+            </Button>
+            <Button>
+                <p> Spotlights </p>
+            </Button>
+            <Button>
+                <p> Sales </p>
+            </Button>
+            <Searchbox> 
+            </Searchbox>
+
+            <Button> <p> Sign in </p> </Button>
+            
+            <Button> <p> Returns  </p></Button>
+            <Button> <p> Orders </p> </Button>
+            <Button> 
+                <FaShoppingCart size={20} />
+            </Button>
+        </Nav>
         </Container>
       </SHeader>
-    </div>
-  );
+  )
 }
 
 

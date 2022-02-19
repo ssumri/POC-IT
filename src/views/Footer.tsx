@@ -3,25 +3,42 @@ import '../App.css';
 import { Container, BorderedContainer } from '../resources/Container';
 import { Button } from '../resources/Button';
 import { SFooter } from '../resources/FooterStyled';
-import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
+import { FaTwitter, FaInstagram, FaPinterest, FaYoutube, FaFacebook } from 'react-icons/fa';
+import { Flex } from '../resources/FlexBox';
 
 
 function Footer() {
     return (
         <SFooter>
+            <Flex>            
             <Container> 
                 <ul>
-                    <FaEnvelope /> &ensp; sumriddhi9118@gmail.com
-                </ul>
-                <ul>
-                    <FaPhone />
-                    &ensp; (720) 438-8645
-                </ul>
-                <ul>
-                    <FaMapMarkerAlt />
-                    &ensp; Westminster, Colorado
+                    About
                 </ul>
             </Container>
+            <Container> 
+                <ul>
+                    Help
+                </ul>
+            </Container>
+            <Container> 
+                <ul>
+                    Contact Us
+                </ul>
+            </Container>
+            <Container>
+            <ul>
+                Check us out on socials!
+                <ul> 
+                    <FaInstagram size={30}/> 
+                    <FaPinterest size={30}/>
+                    <FaTwitter size={30}/>
+                    <FaYoutube size={30}/>
+                    <FaFacebook size={30}/>
+                </ul>
+            </ul>
+            </Container>
+            </Flex>
         </SFooter>
     )
 }
