@@ -1,7 +1,7 @@
 {
   "name": "t9_hacks",
   "version": "0.1.0",
-  "homepage": "https://ssumri.github.io/react-gh-pages",
+  "homepage": "https://ssumri.github.io/t9_hacks",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
