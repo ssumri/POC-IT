@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const SFooter = styled("div")`
-    background-color: #461e5c;
-    color: #ffcf70;
-    padding: 0 0 5;    
+    background-color: #ffffff;
+    color: #8448AD;
+    padding: 0 0;    
     
     @media (max-width: 768px ){
         text-align: center;
@@ -12,3 +12,4 @@ export const SFooter = styled("div")`
         }
     }
 `
+

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import { Container, BorderedContainer } from '../resources/Container';
+import { Container, BorderedContainer, FontContainer } from '../resources/Container';
 import { Button } from '../resources/Button';
 import { SFooter } from '../resources/FooterStyled';
 import { FaTwitter, FaInstagram, FaPinterest, FaYoutube, FaFacebook } from 'react-icons/fa';
@@ -28,14 +28,23 @@ function Footer() {
             </Container>
             <Container>
             <ul>
-                Check us out on socials!
-                <ul> 
-                    <FaInstagram size={30}/> 
-                    <FaPinterest size={30}/>
-                    <FaTwitter size={30}/>
-                    <FaYoutube size={30}/>
-                    <FaFacebook size={30}/>
-                </ul>
+                <Flex>
+                <FontContainer>
+                    <FaInstagram size={25} /> 
+                </FontContainer>
+                <FontContainer>
+                    <FaPinterest size={25}/>
+                </FontContainer>
+                <FontContainer>
+                    <FaTwitter size={25}/>
+                </FontContainer>
+                <FontContainer>
+                    <FaYoutube size={25}/>
+                </FontContainer>
+                <FontContainer>
+                    <FaFacebook size={25}/>
+                </FontContainer>
+                </Flex>
             </ul>
             </Container>
             </Flex>

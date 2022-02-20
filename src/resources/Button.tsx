@@ -56,8 +56,8 @@ export const SloanButtons = styled("button")`
     border-radius: 70px;
     border: none;
     cursor: pointer;
-    padding: 10px 24px;
-    font-size: 25px;
+    padding: 10px 15px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 1;
     flex-direction: column;
