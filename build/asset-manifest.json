@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/POC-IT/static/css/main.073c9b0a.css",
+    "main.js": "/POC-IT/static/js/main.7e664701.js",
+    "static/js/787.d1b00da5.chunk.js": "/POC-IT/static/js/787.d1b00da5.chunk.js",
+    "static/media/Featured_Businesses.png": "/POC-IT/static/media/Featured_Businesses.1d7e2c544f9fe84a1195.png",
+    "static/media/Popular_Items.png": "/POC-IT/static/media/Popular_Items.dfd28fe8e24e25a8bf0c.png",
+    "static/media/Their_Stories.png": "/POC-IT/static/media/Their_Stories.03f66ba788a20bd2f939.png",
+    "static/media/SloganPic.png": "/POC-IT/static/media/SloganPic.0088eadfd72130369712.png",
+    "static/media/Official_POCit_Logo.png": "/POC-IT/static/media/Official_POCit_Logo.564ce524503d20444fde.png",
+    "static/media/Categories.png": "/POC-IT/static/media/Categories.0b10e8300f6ece5c5d54.png",
+    "index.html": "/POC-IT/index.html",
+    "main.073c9b0a.css.map": "/POC-IT/static/css/main.073c9b0a.css.map",
+    "main.7e664701.js.map": "/POC-IT/static/js/main.7e664701.js.map",
+    "787.d1b00da5.chunk.js.map": "/POC-IT/static/js/787.d1b00da5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.7e664701.js"
+  ]
+}
